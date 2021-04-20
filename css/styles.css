@@ -1,8 +1,8 @@
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Fire Sans", Geneva, Tahoma, sans-serif;
     font-size: 80%;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     width: 960px;
     margin: 0 auto;
 }
@@ -28,15 +28,19 @@ main {
 }
 h1 {
     text-align: center;
-
+    background-color: #9ECAC4;
 }
 h2 {
     margin-top: 40px;
-
+    font-family: "Nunito" sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #A1BF84;
 }
 .colours {
     border: 3px solid #B5709E;
-    width: 960px;
+    width: 940px;
     color: black;
     font-weight: bold;
     float: left;
@@ -95,41 +99,42 @@ h2 {
     padding: 5px;
     display: inline;
 }
+h3 {
+    text-decoration: underline;
+}
 .fonts{
     border: 3px solid #417367;
-    width: 960px;
-    float: left;
+    width: 940px;
     margin: 5px;
     padding: 5px;
-    display: flex;
-    flex-basis: 33.3%;
+    float: left;
     justify-content:space-evenly;
     font-size:medium;
-}
+    display: block;
 }
 .FiraSans{
     font-family: 'Fira Sans', sans-serif;
-    width: 200px;
-    height: 150px;
+    width: 290px;
+    float: left;
+    height: 200px;
     margin: 5px;
     padding: 5px;
-    display: inline;
 }
 .Nunito{
     font-family: 'Nunito', sans-serif;
-    width: 200px;
-    height: 150px;
+    width: 290px;
+    height: 200px;
     margin: 5px;
     padding: 5px;
-    display: inline;
+    float: left;
 }
 .SourceSansPro{
     font-family: 'Source Sans Pro', sans-serif;
-    width: 200px;
-    height: 150px;
+    width: 290px;
+    height: 200px;
     margin: 5px;
     padding: 5px;
-    display: inline;
+    float: left;
 }
 .bold {
     font-weight: 700;
@@ -137,4 +142,43 @@ h2 {
 .italic {
     font-weight: 400;
     font-style: italic;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+}
+.h1heading {
+    padding-top: 20px;
+    background-color: #9ECAC4;
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+    border: ;
+}
+.h2heading {
+    padding-top: 20px;
+    background-color: #A1BF84;
+    font-family: "Nunito" sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+}
+.pheading {
+    padding-top: 20px;
+    background-color: lightcyan;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    font-weight:normal;
+    text-decoration: none;
+    text-align: left;
+}
+.text-styles {
+    display: block;
+    clear: left;
+}
+.stylesbox{
+    border: 2px solid #417367;
 }
