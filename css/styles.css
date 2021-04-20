@@ -14,6 +14,7 @@ body {
     width: 960px;
     border: 2px solid #417367;
     background-color: #417367;
+    color: white;
     text-align: center
 }
 li{
@@ -27,6 +28,11 @@ main {
 }
 h1 {
     text-align: center;
+
+}
+h2 {
+    margin-top: 40px;
+
 }
 .colours {
     border: 3px solid #B5709E;
@@ -37,7 +43,7 @@ h1 {
     margin: 5px;
     padding: 5px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .color1{
     background-color: #143C4A;
@@ -51,7 +57,7 @@ h1 {
 }
 .color2{
     background-color: #A1BF84;
-    color: white;
+    color: black;
     font-weight: bolder;
     width: 150px;
     height: 150px;
@@ -71,7 +77,7 @@ h1 {
 }
 .color4{
     background-color: #9ECAC4;
-    color: white;
+    color: black;
     font-weight: bolder;
     width: 150px;
     height: 150px;
@@ -88,4 +94,47 @@ h1 {
     margin: 5px;
     padding: 5px;
     display: inline;
+}
+.fonts{
+    border: 3px solid #417367;
+    width: 960px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content:space-evenly;
+    font-size:medium;
+}
+}
+.FiraSans{
+    font-family: 'Fira Sans', sans-serif;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+.Nunito{
+    font-family: 'Nunito', sans-serif;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+.SourceSansPro{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-weight: 400;
+    font-style: italic;
 }
